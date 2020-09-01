@@ -1,6 +1,6 @@
 module.exports = {
-    name: 'mute',
-    description: 'Command used to mute everyone on the same voice channel.',
+    name: 'sho',
+    description: 'Command used to mute everyone on the same voice channel. 2',
     execute(message) {   
       if (message.member.voice.channel) {
         let channel = message.guild.channels.cache.get(message.member.voice.channel.id);
