@@ -1,6 +1,6 @@
 module.exports = {
   name: 'mute',
-  aliases: ['sho'],
+  aliases: ['sho', 's'],
   description: 'Command used to mute everyone on the same voice channel.',
   execute(message) {   
     if (message.member.voice.channel) {
