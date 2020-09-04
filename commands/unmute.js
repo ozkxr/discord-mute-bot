@@ -1,5 +1,6 @@
 module.exports = {
   name: 'unmute',
+  aliases: ['unsho', 'desho', 'dessho', 'nosho', 'u']
   description: 'Command used to unmute everyone on the same voice channel.',
   execute(message) {
     if (message.member.voice.channel) {
